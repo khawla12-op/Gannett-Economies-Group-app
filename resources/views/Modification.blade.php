@@ -71,7 +71,7 @@
                     
                     <div class="col-12 label">Nombre de journaux:</div>
                     <div class="col-12">
-                        <select name="Nombre de journaux" id="">
+                        <select name="nombre_journaux" id="">
                             <option value="PDF">PDF</option>
                             <option value="2 Journaux">2 Journaux</option>
                             <option value="3 Journaux">3 Journaux</option>
@@ -81,98 +81,98 @@
                          
                          <input name="denomination_sociale" type="text" placeholder="dénomination sociale de la SARL.AU"><br>
                          Forme : 
-                         <select name="Forme" id="">
+                         <select name="forme_sociale" id="">
                          <option value="SARL">SARL</option><option value="SARL.AU">SARL.AU</option><option value="SNC">SNC</option>
                                                  </select>
                          <br>
                          Siège Social : 
                          
-                         <input name="Siège Social : " type="text" placeholder="lieu du siège social de la société"><br>
+                         <input name="Siege_social" type="text" placeholder="lieu du siège social de la société"><br>
                          Capital Social : 
-                         <input name="montant du capital social" type="number" placeholder="montant du capital social ">dirhams.<br>
+                         <input name="capital_social" type="number" placeholder="montant du capital social ">dirhams.<br>
                          
                           
                          Numéro R.C : 
                          
-                         <input name=" Numéro R.C :" type="text" placeholder="numéro R.C">   <input name="ville2" type="text" placeholder="ville"><br>
+                         <input name="numero_rcs " type="text" placeholder="numéro R.C">   <input name="ville" type="text" placeholder="ville"><br>
                         
                     </div>
 
                     <div class="col-12 label">
                     I- L’assemblée générale extraordinaire en date du 
-                         <input type="date" name="extraordinaire en date du">
+                         <input type="date" name="extraordinaire_date">
                          , les associés de la société          
-                         <input type="text" palaceholder="dénomination sociale de la société" name="dénomination sociale de la société">
+                         <input type="text" palaceholder="la_societe" name="dénomination sociale de la société">
                           ont décidé ce qui suit :
                     <br>
                     <strong>Ajouter une cession des parts sociales 
-                        <select name="Ajouter une cession des parts sociales" id="">
+                        <select name="ajouter_cession_parts_sociales" id="">
                         <option value="NON">NON</option>
                         <option value="OUI">OUI</option>
                     </select></strong><br>
                     <strong style="color: #5b5b5b;">*******</strong><br>
                     <strong>Ajouter un changement de gérant 
-                        <select name="Ajouter un changement de gérant" id="">
+                        <select name="ajouter_changement_gerant" id="">
                         <option value="NON">NON</option>
                         <option value="OUI">OUI</option>
                     </select></strong><br>
                     <strong style="color: #5b5b5b;">*******</strong><br>
                     <strong>Ajouter modification objet sociale 
-                        <select name="Ajouter modification objet sociale " id="">
+                        <select name="ajouter_modification_objet_sociale " id="">
                         <option value="NON">NON</option>
                         <option value="OUI">OUI</option>
                     </select></strong><br>
                     <strong style="color: #5b5b5b;">*******</strong><br>
                     <strong>Ajouer transfert du siège sociales 
-                        <select name="Ajouer transfert du siège sociales " id="">
+                        <select name="ajouter_transfert_siege_social " id="">
                         <option value="NON">NON</option>
                         <option value="OUI">OUI</option>
                     </select></strong><br>
                     <strong style="color: #5b5b5b;">*******</strong><br>
                     <strong>Ajouer changement de dénomination 
-                        <select name="Ajouer changement de dénomination" id="">
+                        <select name="ajouter_changement_denomination" id="">
                         <option value="NON">NON</option>
                         <option value="OUI">OUI</option>
                     </select></strong><br>
                     <strong style="color: #5b5b5b;">*******</strong><br>
                     <strong>Ajouer transformation de la forme juridique 
-                        <select name="Ajouer transformation de la forme juridique" id="">
+                        <select name="ajouter_transformation_forme_juridique" id="">
                         <option value="NON">NON</option>
                         <option value="OUI">OUI</option>
                     </select></strong><br>
                     <strong style="color: #5b5b5b;">*******</strong><br>
                     <strong>Ajouter un text libre 
-                        <select name="Ajouter un text libre" id="">
+                        <select name="ajouter_texte_libre" id="">
                         <option value="NON">NON</option>
                         <option value="OUI">OUI</option>
                     </select></strong><br>
                     <strong style="color: #5b5b5b;">*******</strong><br>
                        <div class="col-12 label">
                        II-Modification 
-                        <select name="Modification de larticle" id="">
+                        <select name="modification_article" id="">
                             <option value="de l'article">de l'article</option>
                             <option value="des articles">des articles</option>
                         </select>
-                         <input type="text" name="numéros des articles à modifier ex: 4,7,9" placeholder="numéros des articles à modifier ex: 4,7,9">
+                         <input type="text" name="numeros_articles_modifies" placeholder="numéros des articles à modifier ex: 4,7,9">
                         
                          des statuts<br>
                         <strong style="color: #5b5b5b;">*******</strong>
                        </div>
                          
                          III - Le dépôt légal a été effectué au 
-                         <select name="Le dépôt légal a été effectué" id="">
+                         <select name="depot_legal" id="">
                          <option value="Greffe du Tribunal de Commerce">Greffe du Tribunal de Commerce</option>
                              <option value="Tribunal d’Instance">Tribunal d’Instance</option>
                              <option value="Centre Régional d’Investissement">Centre Régional d’Investissement</option>
                          </select>
                           de 
                          
-                         <input name="ville" type="text" placeholder="ville">
+                         <input name="ville_depot" type="text" placeholder="ville">
                           le 
-                         <input name="le" type="date">
+                         <input name="date_depot" type="date">
                           sous le N° 
                          
-                         <input name="numéro de dépôt" type="text" placeholder="numéro de dépôt" ><br>
+                         <input name="numero_depot" type="text" placeholder="numéro de dépôt" ><br>
                          Pour avis et mention. <br>
                          
                          LE GÉRANT <br>

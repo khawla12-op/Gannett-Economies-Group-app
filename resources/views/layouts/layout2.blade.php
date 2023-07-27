@@ -9,7 +9,6 @@
     <link href="/css/main.css" rel="stylesheet">
 
  
-    <script src="ApresConnexion/script.js"></script>
 
     <script src='https://kit.fontawesome.com/f0841bede9.js' crossorigin='anonymous'></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
