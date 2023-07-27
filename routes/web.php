@@ -8,6 +8,8 @@ use App\Http\Controllers\CessionController;
 use App\Http\Controllers\ModificationsController;
 use App\Http\Controllers\DissolutionController;
 use App\Http\Controllers\LiquidationController;
+use App\Http\Controllers\AjoutController;
+use App\Http\Controllers\CapitalSocialController;
 
 
 /*
@@ -109,3 +111,5 @@ Route::post('/CessionForm', [CessionController::class, 'storeFormCessionData'])-
 Route::post('/ModificationForm', [ModificationsController::class, 'storeModificationsData'])->name('store.ModificationsForm.data');
 Route::post('/DissolutionForm',[DissolutionController::class,'storeDissolutionData'])->name('store.DissolutionForm.data');
 Route::post('/LiquidationForm',[LiquidationController::class,'storeLiquidationData'])->name('store.LiquidationForm.data');
+Route::post('/AjoutForm',[AjoutController::class,'storeAjoutChangementData'])->name('store.AjoutChangementForm.data');
+Route::post('/CapitalSocialForm',[CapitalSocialController::class,'storeCapitalSocialData'])->name('store.CapitalSocialForm.data');
