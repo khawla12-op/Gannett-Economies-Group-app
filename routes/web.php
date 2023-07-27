@@ -108,4 +108,4 @@ Route::post('/SARLAUForm', [SarlsAUController::class, 'storeFormSARLSAUData'])->
 Route::post('/CessionForm', [CessionController::class, 'storeFormCessionData'])->name('store.CessionForm.data');
 Route::post('/ModificationForm', [ModificationsController::class, 'storeModificationsData'])->name('store.ModificationsForm.data');
 Route::post('/DissolutionForm',[DissolutionController::class,'storeDissolutionData'])->name('store.DissolutionForm.data');
-Route::post('LiquidationForm',[LiquidationController::class,'storeLiquidationData'])->name('store.LiquidationForm.data');
+Route::post('/LiquidationForm',[LiquidationController::class,'storeLiquidationData'])->name('store.LiquidationForm.data');
