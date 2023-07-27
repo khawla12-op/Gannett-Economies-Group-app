@@ -1,6 +1,24 @@
 @extends('layouts.layout')
 @section('ModificationDuCapital')
-<form action="" method="post">
+
+@if ($errors->any())
+<div class="alert alert-danger">
+    <ul>
+        @foreach ($errors->all() as $error)
+            <li>{{ $error }}</li>
+        @endforeach
+    </ul>
+</div>
+@endif 
+
+@if(session('success'))
+    <div class="alert alert-success">
+        {{ session('success') }}
+    </div>
+@endif
+
+<form action="{{ route('store.CapitalSocialForm.data') }}" method="post">
+    @csrf
     <div class="row">
     <input type="text" name="Publier Une Annonce Légale" value="  Annonce légale modification du capital social" style="display:none;">
     <div class="col-md-8 col-11" style="padding-left: 26px;">
