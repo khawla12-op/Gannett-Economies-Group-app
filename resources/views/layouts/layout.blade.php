@@ -145,6 +145,25 @@ ECONOMIES GROUP</title>
 @yield('ModelesAnnonces')
 @yield('ModePaiement')
 @yield('connexion')
+@yield('premiereannonce')
+@yield('deuxiemeannonce')
+@yield('3annonce')
+@yield('4annonce')
+@yield('5annonce')
+@yield('6annonce')
+@yield('7annonce')
+@yield('8annonce')
+@yield('9annonce')
+@yield('10annonce')
+@yield('11annonce')
+@yield('12annonce')
+@yield('13annonce')
+@yield('14annonce')
+@yield('15annonce')
+@yield('16annonce')
+@yield('17annonce')
+@yield('18annonce')
+@yield('19annonce')
 
 
 
@@ -169,6 +188,7 @@ ECONOMIES GROUP</title>
 </div>
 
 <div class="col-12 h6 pt-3"><a href=""> Tous droits réservés - GANNETT ECONOMIES &copy; 2023</a></div>
+  </div>
 
   
 </body>

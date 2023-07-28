@@ -1,6 +1,17 @@
 @extends('layouts.layout')
 @section('DernieresAnnonces')
+
 <form action="" method="post">
+  <div class="row mb-5" style="direction:ltr;">
+    <div class="col-4"></div>
+     <div class="col-md-4 mt-5 mb-3 text-center titre h6 d-md-block d-none " style="background-color: #333;border-radius: 6px;padding: 13px;
+           ">
+     <a href="index.php"  style=" text-decoration: none;color: rgba(230,197,90,1);">
+                       <span style="font-size:2rem;font-family: 'Font Awesome 5 Pro';text-align:center;">GANNETT <br> ECONOMIES </span>
+                       <span style="font-size:2rem;">GROUP</span>
+                       <br>   
+                     Le 1er Journal D'Annonce Légale Au Maroc</a>
+    </div>
  
    
    <div class="col-4"></div>
@@ -23,7 +34,7 @@
 I – Aux termes d’une décision en date à Nador du 14/03/2022, l’Associé unique décide de dissoudre par anticipation la société à responsabilité limitée d’associé unique dite « MACONAD» au capital de 100.000 dirhams dont le siège social est situé à NADOR, ROUTE SEGANGAN BENI BOUYAFROUR SEGANGAN et constate sa liquidation définitive 
 II – Le dépôt a été effectué au Greffe du Tribunal de Première Instance de Nador le 21/03/2022 sous n° 461
                                       </div>
-         <div class="col-12 button mt-4"><a href="annoneceLegale.php?code=83">Voir l’annonce</a></div>
+         <div class="col-12 button mt-4"><a href="premiereannonce">Voir l’annonce</a></div>
   </div>
 </div>
         <div class="col-md-3 col-11 mb-1">
@@ -42,7 +53,7 @@ Durée sociale : 99 ans
 Année sociale : commence le 1er janvier et finit le 31 décembre. 
 Dépôt légal : a été effectué auprès du tribunal de commerce de Casablanca le 23 Mars 2022 sous le numéro 818639.
 </div>
-         <div class="col-12 button mt-4"><a href="annoneceLegale.php?code=82">Voir l’annonce</a></div>
+         <div class="col-12 button mt-4"><a href="deuxiemeannonce">Voir l’annonce</a></div>
   </div>
 </div>
         <div class="col-md-3 col-11 mb-1">
@@ -72,7 +83,7 @@ Mr. ABDERRAHIM ALOUL  né le 01/01/1979, de nationalité marocaine, titulaire de
 Le dépôt légal est effectue au tribunal de commerce du Casablanca (DEPOT LEGAL 818824)
 RC N° : 537723
 </div>
-         <div class="col-12 button mt-4"><a href="annoneceLegale.php?code=81">Voir l’annonce</a></div>
+         <div class="col-12 button mt-4"><a href="/3annonce">Voir l’annonce</a></div>
   </div>
 </div>
         <div class="col-md-3 col-11 mb-1">
@@ -89,7 +100,7 @@ CAPITAL SOCIAL :        Le capital social est fixé à 100.000,00 (cent Mille) d
 Gérance : Est nommé gérant pour une durée illimitée M. Othman ALAMI OUALI, né le 03 septembre 1964, titulaire de la CIN N° BE5932, demeurant à Lot MANDARONA n°229 Sidi Maarouf Casablanca, de nationalité Marocaine.
 Le dépôt légal a été effectué au Centre Régional d’Investissement de la Wilaya de CASABLANCA
 </div>
-         <div class="col-12 button mt-4"><a href="annoneceLegale.php?code=80">Voir l’annonce</a></div>
+         <div class="col-12 button mt-4"><a href="4annonce">Voir l’annonce</a></div>
   </div>
 </div>
         <div class="col-md-3 col-11 mb-1">
@@ -112,7 +123,7 @@ Soit, au total, la somme de……….  40.000,00 DHS.
 Gérant et Signataire : MONSIEUR BENAICH SALAHEDDINE
 le dépôt légal a été effectué au centre régional d’investissement WILAYA du grand Casablanca .
 </div>
-         <div class="col-12 button mt-4"><a href="annoneceLegale.php?code=79">Voir l’annonce</a></div>
+         <div class="col-12 button mt-4"><a href="5annonce">Voir l’annonce</a></div>
   </div>
 </div>
         <div class="col-md-3 col-11 mb-1">
@@ -135,7 +146,7 @@ GERANCE: La société est gérée par Mme KHABABI NAIMA
 ANNEE SOCIALE :   Du 1er janvier au 31 décembre de chaque année.
 Le dépôt légal a été effectué au tribunal de première instance, Salé le : 21/02/2022 R.C N° : 35507
 </div>
-         <div class="col-12 button mt-4"><a href="annoneceLegale.php?code=78">Voir l’annonce</a></div>
+         <div class="col-12 button mt-4"><a href="6annonce">Voir l’annonce</a></div>
   </div>
 </div>
         <div class="col-md-3 col-11 mb-1">
@@ -152,7 +163,7 @@ Gérance :la société est gérée parM. EL BADRAOUI MOHAMED, titulaire de CIN N
 Année Sociale : premier janvier au 31 Décembre de chaque année.
 Le dépôt légal a été effectué au greffé du tribunal de première instance de Beni Mellal, et immatriculée au registre de commerce le 24/06/2021 sous N°11665.
 </div>
-         <div class="col-12 button mt-4"><a href="annoneceLegale.php?code=77">Voir l’annonce</a></div>
+         <div class="col-12 button mt-4"><a href="7annonce">Voir l’annonce</a></div>
   </div>
 </div>
         <div class="col-md-3 col-11 mb-1">
@@ -171,7 +182,7 @@ Le dépôt légal a été effectué au greffé du tribunal de première instance
 - Année sociale: 1 JANVIER et termine le 31 DECEMBRE de chaque année
 Le dépôt légal  a été effectué au greffe du tribunal de commerce de casa Le 22/03/2022  sous Le N°537305
 </div>
-         <div class="col-12 button mt-4"><a href="annoneceLegale.php?code=76">Voir l’annonce</a></div>
+         <div class="col-12 button mt-4"><a href="8annonce">Voir l’annonce</a></div>
   </div>
 </div>
         <div class="col-md-3 col-11 mb-1">
@@ -185,7 +196,7 @@ BENNIS BOUTAYNA  s’est nommé en qualité de liquidateur eu égard aux pouvoir
 L’associé unique décide la dissolution anticipée de la société à compter de ce jour.
 La liquidation s’effectuera sous le régime conventionnel en conformité avec ces dispositions statutaires et de celles générales du Dahir des obligations et des contrats.Le dépôt légal a été effectué au greffe du tribunal de Casablanca le 24  Décembre 2019 sous le numéro N° 724675 
 </div>
-         <div class="col-12 button mt-4"><a href="annoneceLegale.php?code=75">Voir l’annonce</a></div>
+         <div class="col-12 button mt-4"><a href="9annonce">Voir l’annonce</a></div>
   </div>
 </div>
         <div class="col-md-3 col-11 mb-1">
@@ -204,7 +215,7 @@ Aux termes d’un acte sous-seing privé en date de 15 mars 2022 enregistré le 
 3-Modification corrélative des statuts. 
 Le dépôt légal a été effectué au greffe du tribunal de première instance en date du 21 mars 2022 sous le numéro : 90794
 </div>
-         <div class="col-12 button mt-4"><a href="annoneceLegale.php?code=74">Voir l’annonce</a></div>
+         <div class="col-12 button mt-4"><a href="10annonce">Voir l’annonce</a></div>
   </div>
 </div>
         <div class="col-md-3 col-11 mb-1">
@@ -229,7 +240,7 @@ III– Le dépôt légal a été effectué au Greffe du Tribunal de CASABLANCA l
            
            
             </div>
-         <div class="col-12 button mt-4"><a href="annoneceLegale.php?code=53">Voir l’annonce</a></div>
+         <div class="col-12 button mt-4"><a href="11annonce">Voir l’annonce</a></div>
   </div>
 </div>
         <div class="col-md-3 col-11 mb-1">
@@ -249,7 +260,7 @@ III– Le dépôt légal a été effectué au Greffe du Tribunal de CASABLANCA l
 -Année sociale : 1 JANVIER et termine le 31 DECEMBRE de chaque année.
 Le dépôt légal a été effectué au greffe du tribunal de commerce de Casablanca.
 </div>
-         <div class="col-12 button mt-4"><a href="annoneceLegale.php?code=52">Voir l’annonce</a></div>
+         <div class="col-12 button mt-4"><a href="12annonce">Voir l’annonce</a></div>
   </div>
 </div>
         <div class="col-md-3 col-11 mb-1">
@@ -269,7 +280,7 @@ Mr  MOSTAFA TOURBY ........................1000 PARTS
 Gérance : nomination de Mr   MOSTAFA TOURBY  comme GERANT de la Société.
 Le registre de commerce a été effectué au Greffier du Tribunal de commerce de   Casablanca sous le N 534695 en date du  02/03/2022
 </div>
-         <div class="col-12 button mt-4"><a href="annoneceLegale.php?code=51">Voir l’annonce</a></div>
+         <div class="col-12 button mt-4"><a href="13annonce">Voir l’annonce</a></div>
   </div>
 </div>
         <div class="col-md-3 col-11 mb-1">
@@ -290,7 +301,7 @@ Le registre de commerce a été effectué au Greffier du Tribunal de commerce de
 - Année sociale: 1 JANVIER Et terminée 31 DECEMBRE de chaque année
 Le dépôt légal  a été effectué au greffe du tribunal de commerce de Nador Le 25/11/2021 sous Le N°4506
 </div>
-         <div class="col-12 button mt-4"><a href="annoneceLegale.php?code=50">Voir l’annonce</a></div>
+         <div class="col-12 button mt-4"><a href="14annonce">Voir l’annonce</a></div>
   </div>
 </div>
         <div class="col-md-3 col-11 mb-1">
@@ -319,7 +330,7 @@ dépôt : le dépôt légal a été effectué au greffe du tribunal de commerce 
            
            
             </div>
-         <div class="col-12 button mt-4"><a href="annoneceLegale.php?code=49">Voir l’annonce</a></div>
+         <div class="col-12 button mt-4"><a href="15annonce">Voir l’annonce</a></div>
   </div>
 </div>
         <div class="col-md-3 col-11 mb-1">
@@ -336,7 +347,7 @@ Adoption de nouveaux statuts refondus de la société.
 Le dépôt légal a été effectué au tribunal de première instance de Nador, le 01 Mars  2022 sous le n° 341.
 
             </div>
-         <div class="col-12 button mt-4"><a href="annoneceLegale.php?code=48">Voir l’annonce</a></div>
+         <div class="col-12 button mt-4"><a href="16annonce">Voir l’annonce</a></div>
   </div>
 </div>
         <div class="col-md-3 col-11 mb-1">
@@ -355,7 +366,7 @@ II– L’article 4 des statuts a été modifié, en conséquence
 III– Le dépôt légal a été effectué au Greffe du Tribunal de CASABLANCA le 02 /03/2022  sous le N° 8232
 
             </div>
-         <div class="col-12 button mt-4"><a href="annoneceLegale.php?code=47">Voir l’annonce</a></div>
+         <div class="col-12 button mt-4"><a href="17annonce">Voir l’annonce</a></div>
   </div>
 </div>
         <div class="col-md-3 col-11 mb-1">
@@ -377,7 +388,7 @@ Monsieur  ABDELAZIZ FATENE
 Le dépôt légal a été effectué au tribunal de  commerce de  Casablanca 
 
             </div>
-         <div class="col-12 button mt-4"><a href="annoneceLegale.php?code=46">Voir l’annonce</a></div>
+         <div class="col-12 button mt-4"><a href="18annonce">Voir l’annonce</a></div>
   </div>
 </div>
         <div class="col-md-3 col-11 mb-1">
@@ -400,17 +411,19 @@ Dépôt légal : le dépôt légal a été effectué  auprès du Tribunal de Com
 Immatriculation : la Société a été immatriculée au R.C du Tribunal de Commerce de Tanger sous n° 124961 le 28/02/2022. 
 
             </div>
-         <div class="col-12 button mt-4"><a href="annoneceLegale.php?code=44">Voir l’annonce</a></div>
-  </div>
+         <div class="col-12 button mt-4"><a href="19annonce">Voir l’annonce</a></div>
+          </div>
 </div>
-
-   <div class="col-md-3" style="padding-right: 18px;"> 
+<!--Hadi li ma3rafch liha 
+   <div class="col-md-3" style="padding-right: 18px;*, ::after, ::before {
+    box-sizing: border-box;
+} "> 
    <a href="index.php#contact"><img class='' style='    border: 2px solid #d8d8d8;
       background: white;
       padding: 5px;
-      border-radius: 3px;width:100%;' src='images/pub2.jfif'/></a> 
+      border-radius: 3px;width:100%;' src='img/pub2.png'/></a> 
      </div>
-  
+    -->
    </div>
     </form>
 @endsection

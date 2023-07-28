@@ -1,5 +1,6 @@
 @extends('layouts.layout')
 @section('content')
+<!--remarque:Hadi f la page apres connexion exactement f nouveau annonce legale-->
 
 <form  action="process_form.php" method="post">
   <div class="connexion">

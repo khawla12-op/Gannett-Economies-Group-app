@@ -87,6 +87,67 @@ Route::get('/GestionAnnonceLegale', function () {
 Route::get('/ListePublication', function () {
     return view('ListePublication');
 });
+Route::get('/premiereannonce',function(){
+    return view('premiereannonce');
+});
+Route::get('/deuxiemeannonce',function(){
+    return view('deuxiemeannonce');
+});
+Route::get('/3annonce',function(){
+    return view('3annonce');
+});
+Route::get('/4annonce',function(){
+    return view('4annonce');
+});
+Route::get('/5annonce',function(){
+    return view('5annonce');
+});
+Route::get('/6annonce',function(){
+    return view('6annonce');
+});
+Route::get('/7annonce',function(){
+    return view('7annonce');
+});
+Route::get('/8annonce',function(){
+    return view('8annonce');
+});
+Route::get('/9annonce',function(){
+    return view('9annonce');
+});
+Route::get('/10annonce',function(){
+    return view('10annonce');
+});
+Route::get('/11annonce',function(){
+    return view('11annonce');
+});
+Route::get('/12annonce',function(){
+    return view('12annonce');
+});
+Route::get('/13annonce',function(){
+    return view('13annonce');
+});
+Route::get('/14annonce',function(){
+    return view('14annonce');
+});
+Route::get('/15annonce',function(){
+    return view('15annonce');
+});
+Route::get('/16annonce',function(){
+    return view('16annonce');
+});
+Route::get('/17annonce',function(){
+    return view('17annonce');
+});
+Route::get('/18annonce',function(){
+    return view('18annonce');
+});
+Route::get('/19annonce',function(){
+    return view('19annonce');
+});
+
+
+
+
 Route::get('/NouvellePublicite', function () {
     return view('NouvellePublicite');
 });
