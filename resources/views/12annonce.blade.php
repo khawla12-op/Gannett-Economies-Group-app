@@ -1,6 +1,6 @@
 @extends('layouts.layout')
 
-@section('6annonce')
+@section('12annonce')
 <form action="" method="post">
     <div class="row mb-5" style="direction:ltr;">
         <div class="col-4"></div>
@@ -26,37 +26,32 @@
            overflow: inherit;
            height: auto;
        ">
-           <div class="col-12 numero">Numéro : 1208</div>
-           <div class="col-12 rubique text-center"><strong>UR-DECO </strong></div>
+           <div class="col-12 numero">Numéro : 1213</div>
+           <div class="col-12 rubique text-center"><strong>THE MOROCCAN AGENCY FOR EVENTS MANAGEMENT</strong></div>
            <div class="col-12">
                <div class="row">
                    <div class="col-md-6"></div>
-                   <div class="col-md-6 " style="text-align:right">2022-03-26</div>
+                   <div class="col-md-6 " style="text-align:right">2022-03-08</div>
                </div>
            </div>
            <div class="col-12 text-center titre" style="    color: #232323;
            font-family: fantasy;
            letter-spacing: 1px;
-           font-size: 19px;">STE « UR-DECO » “S.A.R.L  AU“
-   Constitution d’une Société à Responsabilité Limitée Associé Unique
-   </div>
+           font-size: 19px;"></div>
            <div class="col-12">
-              Aux termes d’un acte SSP en date à Casablanca du 02/02/2022. Il a été Etabli les statuts d’une S.A.R.L AU   dont les caractéristiques sont les suivantes :
-   DENOMINATION:   « UR-DECO »  “S.A.R.L AU ”                         
-   OBJET           : La société à pour objet :
-   Buffet de naissance : buffet  ,installation ,décoration
-   Meuble chambre à coucher ( les draps ,couverture de lit.)
-   La vente des vêtements 
-   Vente des ustensiles ménagers de luxe
-   LE SIEGE      : Le siège de la société est fixé à , SALA AL JADIDA ,N°26 DE L’IMMEUBLE 12 RESIDENCE MAAMORA 2 OULAD HELLAL HSSAIN .
-   CAPITAL SOCIAL : Le capital social est fixé à 100.000,00 DHS, divisé en 1 000 parts de 100 DHS chacune:
-   Mme, KHABABI NAIMA   .............   1 000 PARTS
-   Soit un total de                                1 000 PARTS
-   GERANCE: La société est gérée par Mme KHABABI NAIMA
-   ANNEE SOCIALE :   Du 1er janvier au 31 décembre de chaque année.
-   Le dépôt légal a été effectué au tribunal de première instance, Salé le : 21/02/2022 R.C N° : 35507
+              Aux termes d’un acte sous seing privé en date du 11/02/2022il a été constitué Une SOCIETE A RESPONSABILITE LIMITEE A ASSOCIE UNIQUE dont les caractéristiques Suivantes :
+   -Forme : SOCIETE A RESPONSABILITE LIMITEE A ASSOCIE UNIQUE.
+   -Dénomination sociales : THE MOROCCAN AGENCY FOR EVENTS MANAGEMENT.
+   -Objet social : Organisation des évènements (fête, culturel, scolaire, privé, public et etc).
+   - Prestation des animations artistiques et musicales.
+   -Siège sociale : Angle Rue Prince Moulay Abdellah et Rue NakhlaImm 1 Etg 4 App 7 , CASABLANCA.
+   -Durée : La durée de la société est fixée à 99 années Consécutives à dater de sa constitution.
+   -Capital sociale : le capitale est fixé à la somme de 100.000,00 DHS divisé en 1000 parts sociales de 100 DHS chacune.
+   -Gérance : la société est administrée par Mr  OUSSAMA BENMADI en qualité de gérant pour une durée illimitée.
+   -Année sociale : 1 JANVIER et termine le 31 DECEMBRE de chaque année.
+   Le dépôt légal a été effectué au greffe du tribunal de commerce de Casablanca.
     </div>
-              <div class="col-12 button" style="display:none;font-family: monospace;"><a href="annoneceLegale.php?code=78">Voir l’annonce</a></div>
+              <div class="col-12 button" style="display:none;font-family: monospace;"><a href="annoneceLegale.php?code=52">Voir l’annonce</a></div>
        </div>
    </div>
              </div>         

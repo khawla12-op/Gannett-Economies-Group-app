@@ -1,6 +1,6 @@
 @extends('layouts.layout')
 
-@section('6annonce')
+@section('18annonce')
 <form action="" method="post">
     <div class="row mb-5" style="direction:ltr;">
         <div class="col-4"></div>
@@ -26,37 +26,34 @@
            overflow: inherit;
            height: auto;
        ">
-           <div class="col-12 numero">Numéro : 1208</div>
-           <div class="col-12 rubique text-center"><strong>UR-DECO </strong></div>
+           <div class="col-12 numero">Numéro : 1214</div>
+           <div class="col-12 rubique text-center"><strong>FIL D’OR IMMO </strong></div>
            <div class="col-12">
                <div class="row">
                    <div class="col-md-6"></div>
-                   <div class="col-md-6 " style="text-align:right">2022-03-26</div>
+                   <div class="col-md-6 " style="text-align:right">2022-03-08</div>
                </div>
            </div>
            <div class="col-12 text-center titre" style="    color: #232323;
            font-family: fantasy;
            letter-spacing: 1px;
-           font-size: 19px;">STE « UR-DECO » “S.A.R.L  AU“
-   Constitution d’une Société à Responsabilité Limitée Associé Unique
-   </div>
+           font-size: 19px;"></div>
            <div class="col-12">
-              Aux termes d’un acte SSP en date à Casablanca du 02/02/2022. Il a été Etabli les statuts d’une S.A.R.L AU   dont les caractéristiques sont les suivantes :
-   DENOMINATION:   « UR-DECO »  “S.A.R.L AU ”                         
-   OBJET           : La société à pour objet :
-   Buffet de naissance : buffet  ,installation ,décoration
-   Meuble chambre à coucher ( les draps ,couverture de lit.)
-   La vente des vêtements 
-   Vente des ustensiles ménagers de luxe
-   LE SIEGE      : Le siège de la société est fixé à , SALA AL JADIDA ,N°26 DE L’IMMEUBLE 12 RESIDENCE MAAMORA 2 OULAD HELLAL HSSAIN .
-   CAPITAL SOCIAL : Le capital social est fixé à 100.000,00 DHS, divisé en 1 000 parts de 100 DHS chacune:
-   Mme, KHABABI NAIMA   .............   1 000 PARTS
-   Soit un total de                                1 000 PARTS
-   GERANCE: La société est gérée par Mme KHABABI NAIMA
-   ANNEE SOCIALE :   Du 1er janvier au 31 décembre de chaque année.
-   Le dépôt légal a été effectué au tribunal de première instance, Salé le : 21/02/2022 R.C N° : 35507
-    </div>
-              <div class="col-12 button" style="display:none;font-family: monospace;"><a href="annoneceLegale.php?code=78">Voir l’annonce</a></div>
+              Aux termes d’un acte sous seing  privé à Casablanca, le 31Janvier  2022 il à été établi  les statuts d’une société dont les caractéristiques sont les suivantes :
+   Dénomination   : FIL D’OR IMMO SARL
+   Siège Social : 265, BD. ZERKTOUNI 9ème ETAGE N°92, Casablanca – Maroc         
+   Objet                 : PROMOTEUR IMMOBILIERS
+   Durée                : 99 ans
+   Capital social : 80.000,00  Dirhams divisé en 800 parts sociales de 100,00 Dirhams chacune réparties comme suit :
+   Monsieur  ABDELAZIZ FATENE, apporteur de  400 parts sociales
+    Madame  MINA NAYER, apporteur de  400 parts sociales
+   Gérant             :      Monsieur  ABDELAZIZ FATENE
+   La signature sociale: la société est valablement engagée par la signature de 
+    Monsieur  ABDELAZIZ FATENE
+   Le dépôt légal a été effectué au tribunal de  commerce de  Casablanca 
+   
+                 </div>
+              <div class="col-12 button" style="display:none;font-family: monospace;"><a href="annoneceLegale.php?code=46">Voir l’annonce</a></div>
        </div>
    </div>
              </div>         
@@ -69,6 +66,7 @@
        </div>
        
         </div>
+
     
 </form>
 @endsection

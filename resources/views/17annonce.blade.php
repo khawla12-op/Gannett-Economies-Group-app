@@ -1,7 +1,8 @@
 @extends('layouts.layout')
 
-@section('6annonce')
+@section('17annonce')
 <form action="" method="post">
+
     <div class="row mb-5" style="direction:ltr;">
         <div class="col-4"></div>
          <div class="col-md-4 mt-5 mb-3 text-center  h6" style="background-color: #333;border-radius: 6px;padding: 13px;
@@ -26,37 +27,31 @@
            overflow: inherit;
            height: auto;
        ">
-           <div class="col-12 numero">Numéro : 1208</div>
-           <div class="col-12 rubique text-center"><strong>UR-DECO </strong></div>
+           <div class="col-12 numero">Numéro : 1214</div>
+           <div class="col-12 rubique text-center"><strong>GIVORS TRADING</strong></div>
            <div class="col-12">
                <div class="row">
                    <div class="col-md-6"></div>
-                   <div class="col-md-6 " style="text-align:right">2022-03-26</div>
+                   <div class="col-md-6 " style="text-align:right">2022-03-08</div>
                </div>
            </div>
            <div class="col-12 text-center titre" style="    color: #232323;
            font-family: fantasy;
            letter-spacing: 1px;
-           font-size: 19px;">STE « UR-DECO » “S.A.R.L  AU“
-   Constitution d’une Société à Responsabilité Limitée Associé Unique
-   </div>
+           font-size: 19px;"></div>
            <div class="col-12">
-              Aux termes d’un acte SSP en date à Casablanca du 02/02/2022. Il a été Etabli les statuts d’une S.A.R.L AU   dont les caractéristiques sont les suivantes :
-   DENOMINATION:   « UR-DECO »  “S.A.R.L AU ”                         
-   OBJET           : La société à pour objet :
-   Buffet de naissance : buffet  ,installation ,décoration
-   Meuble chambre à coucher ( les draps ,couverture de lit.)
-   La vente des vêtements 
-   Vente des ustensiles ménagers de luxe
-   LE SIEGE      : Le siège de la société est fixé à , SALA AL JADIDA ,N°26 DE L’IMMEUBLE 12 RESIDENCE MAAMORA 2 OULAD HELLAL HSSAIN .
-   CAPITAL SOCIAL : Le capital social est fixé à 100.000,00 DHS, divisé en 1 000 parts de 100 DHS chacune:
-   Mme, KHABABI NAIMA   .............   1 000 PARTS
-   Soit un total de                                1 000 PARTS
-   GERANCE: La société est gérée par Mme KHABABI NAIMA
-   ANNEE SOCIALE :   Du 1er janvier au 31 décembre de chaque année.
-   Le dépôt légal a été effectué au tribunal de première instance, Salé le : 21/02/2022 R.C N° : 35507
-    </div>
-              <div class="col-12 button" style="display:none;font-family: monospace;"><a href="annoneceLegale.php?code=78">Voir l’annonce</a></div>
+              Forme : SOCIETE A RESPONSABILITE LIMITEE ASSOCIE UNIQUE  ( SARL AU)
+   - Dénomination sociale : GIVORS TRADING
+   - Capitale sociale : Le capitale est fixe à la somme de  CENT MILLE DIRHAMS 100.000.00  DHS divisé en 1000 (mille) parts sociales de 100 (CENT) DH chacune
+   - Siège sociale : SAADIA RUE 07 N°5 ETG 2 APT 4 SB, CASABLANCA 
+   - N° RC : 361627  à CASABLANCA
+   I– Aux termes d’une assemblée générale extraordinaire en date du 18/02/2022 L’associe ont décidé de transférer à compter du 17/02/2022
+   Le siège social qui était à SAADIA RUE 07 N°5 ETG 2 APT 4 SB, CASABLANCA à l’adresse suivante  28 J OP JNAN AL MOHIT ETG MAG 21 GH7 M28 J MG 21 CASABLANCA
+   II– L’article 4 des statuts a été modifié, en conséquence
+   III– Le dépôt légal a été effectué au Greffe du Tribunal de CASABLANCA le 02 /03/2022  sous le N° 8232
+   
+                 </div>
+              <div class="col-12 button" style="display:none;font-family: monospace;"><a href="annoneceLegale.php?code=47">Voir l’annonce</a></div>
        </div>
    </div>
              </div>         
@@ -69,6 +64,5 @@
        </div>
        
         </div>
-    
 </form>
 @endsection
